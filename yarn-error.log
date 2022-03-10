@@ -1,0 +1,36 @@
+Arguments: 
+  /home/rxz/.nvm/versions/node/v14.17.6/bin/node /home/rxz/.yarn/bin/yarn.js add @kafkajs
+
+PATH: 
+  /home/rxz/go/bin:/usr/local/go/bin:/home/rxz/.yarn/bin:/home/rxz/.config/yarn/global/node_modules/.bin:/home/rxz/.local/share/solana/install/active_release/bin:~/.actin/{*}:/usr/local/cuda-11.1/bin:/home/rxz/.nvm/versions/node/v14.17.6/bin:/home/rxz/go/bin:/usr/local/go/bin:/home/rxz/.yarn/bin:/home/rxz/.config/yarn/global/node_modules/.bin:/home/rxz/.local/share/solana/install/active_release/bin:~/.actin/{*}:/usr/local/cuda-11.1/bin:/home/rxz/.cargo/bin:/home/rxz/.local/share/solana/install/active_release/bin:/home/rxz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.17.6
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@kafkajs: Request "https://registry.yarnpkg.com/@kafkajs" returned a 405
+      at Request.params.callback [as _callback] (/home/rxz/.yarn/lib/cli.js:67038:18)
+      at Request.self.callback (/home/rxz/.yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/home/rxz/.yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/home/rxz/.yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
